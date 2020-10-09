@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="http://127.0.0.1/WebSite/src/res.php" method="post">
+    <input type="text" name="user" 
+        minlength="5" maxlength="15"
+        placeholder="Nome utente" required/><br/>
+    Genere: </br>
+    <input type="radio" name="gender" value="M" checked/> Maschio <br/>
+    <input type="radio" name="gender" value="F"/> Femmine <br/>
+    <textarea name="comment" placeholder="Inserisci qui il tuo commento...">
+    </textarea><br>:
+    Sport:
+    <input type="checkbox" name="sport_1" value="volley"/>Pallavolo<br/>
+    <input type="checkbox" name="sport_2" value="soccer"/>Calcio<br/>
+    <input type="text" name="word">Inserisci una parola</br>
+    <input type="submit"/>
+</form>
+</body>
+</html>
