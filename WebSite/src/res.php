@@ -12,11 +12,6 @@ if(isset($_POST['sport_2'])){
     $sport_2=$_POST['sport_2'];
     echo $sport_2.$TAG_SPACE;
 }
-/*
-if(empty($_POST['word'])){
-    echo "Stronzo";
-}
-*/
 $user=trim($user);
 echo strlen($user).$TAG_SPACE;
 echo $user;
