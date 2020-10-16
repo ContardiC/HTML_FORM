@@ -1,21 +1,19 @@
-/*
-SI APPLICA A TUTTI I TAG
- */
 p{
     color:blue;
 }
-/*
-SI APPLICA SOLO AL TAG CON ID=WARNING
-*/
-#warning{
-    color:FIREBRICK;
+.person{
+    color:red;
+}
+#firstname{
+    color:green;
     font-size: larger;
 }
-/*
-SI APPLICA SOLO AI TAG CON ATTRIBUTO CLASS=SOTTOTITOLI
-*/
-.sottotitoli{
-    color:#000;
-    font-family: "DejaVu Sans Light";
-    font-style: italic;
+.warning{
+    color:orangered;
+}
+.pinci-grey{
+    color:#ddd;
+}
+.pinci-darl-grey{
+    color:#444;
 }
